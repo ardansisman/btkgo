@@ -1,6 +1,8 @@
 package main
 
-import "github.com/ardansisman/btkgo/error_handling"
+import (
+	"github.com/ardansisman/btkgo/error_handling"
+)
 
 func main() {
 	//variables.Demo1()
@@ -78,4 +80,5 @@ func main() {
 	//defer_statement.Demo3()
 
 	error_handling.Demo1()
+
 }

@@ -6,7 +6,7 @@ import (
 )
 
 func Demo1() {
-	f, err := os.Open("demo1.txt") //dosya bulunursa f ye atanıyor , err'ye nil atanıyor
+	f, err := os.Open("error_handling/demo1.txt") //dosya bulunursa f ye atanıyor , err'ye nil atanıyor
 	if err != nil {
 		fmt.Println("Dosya bulunamadı.")
 	} else {
