@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ardansisman/btkgo/restful"
+	"github.com/ardansisman/btkgo/project"
 )
 
 func main() {
@@ -88,6 +88,9 @@ func main() {
 	//string_functions.Demo2()
 
 	// restful.Demo1()
-	restful.Demo2()
+	//restful.Demo2()
+
+	project.AddProduct()
+	//project.GetAllProducts()
 
 }
